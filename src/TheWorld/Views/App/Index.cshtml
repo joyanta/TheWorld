@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<TheWorld.Models.Trip>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="row">
+   <div class="col-md-12">
+       <h1>Welcome to The World</h1>
+       <p>This app will allow you ro plan for world trips</p>
+       <a asp-controller="App" asp-action="Trips" class="btn btn-lg btn-success">View My Trips</a>
+   </div>
+</div>
